@@ -74,3 +74,107 @@ Here are some basic interview questions and answers for a C# developer:
 
 25. **What is the purpose of the `ref` keyword in C#?**
     - The `ref` keyword is used to pass arguments to a method by reference, meaning the method can modify the value of the argument in the calling code. This is useful when you want a method to update a variable passed to it. 
+	
+26. **What is the use of the `Include` and `ThenInclude` in Entity Framework or LINQ?**
+    - In Entity Framework Core (EF Core), the `Include` method is used to specify related data to be included in the query results. This is known as eager loading, where related data is loaded along with the main entities being queried. The `ThenInclude` method is used to further include related data for navigation properties that are also included using `Include`.
+
+Here's an example to illustrate the use of `Include` and `ThenInclude`:
+
+```csharp
+using (var context = new MyDbContext())
+{
+    var books = context.Books
+        .Include(b => b.Author) // Include the Author navigation property
+        .ThenInclude(a => a.Publisher) // Then include the Publisher navigation property of Author
+        .ToList();
+}
+```
+
+In this example, `Include(b => b.Author)` includes the `Author` navigation property of `Book`, and `ThenInclude(a => a.Publisher)` further includes the `Publisher` navigation property of `Author`.
+
+Using `Include` and `ThenInclude` helps reduce the number of database queries by fetching related data in a single query, which can improve the performance of your application.
+
+27. **what are the types of lifetime and registration options in .net core?**
+	- In .NET Core, when working with dependency injection (DI), you can specify the lifetime and registration options for your services. The lifetime of a service defines how long an instance of the service should be kept in memory, and the registration options define how the service is registered with the DI container. Here are the common types of lifetime and registration options:
+
+1. **Lifetime Options:**
+   - **Transient:** A new instance of the service is created every time it is requested. Transient services are not shared across different consumers.
+   - **Scoped:** A single instance of the service is created for each scope. In a web application, a scope is typically created for each web request. Scoped services are shared within the same request but not across different requests.
+   - **Singleton:** A single instance of the service is created for the entire application lifetime. Singleton services are shared across all consumers.
+
+2. **Registration Options:**
+   - **AddTransient:** Registers the service with transient lifetime. Each time the service is requested, a new instance is created.
+   - **AddScoped:** Registers the service with scoped lifetime. The same instance is used within the scope of a request.
+   - **AddSingleton:** Registers the service with singleton lifetime. The same instance is used for the entire application lifetime.
+   - **AddTransient\<TService, TImplementation\>:** Registers a service implementation with transient lifetime.
+   - **AddScoped\<TService, TImplementation\>:** Registers a service implementation with scoped lifetime.
+   - **AddSingleton\<TService, TImplementation\>:** Registers a service implementation with singleton lifetime.
+
+Example of registering a service with DI in .NET Core:
+
+```csharp
+public void ConfigureServices(IServiceCollection services)
+{
+    // Transient registration
+    services.AddTransient<IMyTransientService, MyTransientService>();
+
+    // Scoped registration
+    services.AddScoped<IMyScopedService, MyScopedService>();
+
+    // Singleton registration
+    services.AddSingleton<IMySingletonService, MySingletonService>();
+}
+```
+
+In this example, `IMyTransientService`, `IMyScopedService`, and `IMySingletonService` are service interfaces, and `MyTransientService`, `MyScopedService`, and `MySingletonService` are the corresponding service implementations.
+
+28. **What is Dependency Injection?**
+	- Dependency Injection (DI) is a design pattern used in software development to achieve inversion of control (IoC) between classes and their dependencies. In DI, the dependencies of a class are provided to it externally, rather than the class creating them itself. This allows for greater flexibility, testability, and maintainability of the code.
+
+The basic idea behind DI is to separate the creation of dependencies from the class that uses them. This is typically done by defining interfaces for dependencies and then injecting concrete implementations of these interfaces into the class that needs them. 
+
+DI can be implemented manually, where the dependencies are passed to the class through its constructor or properties, or by using a DI container, which manages the creation and lifetime of dependencies automatically.
+
+Here's a simple example of DI without using a DI container:
+
+```csharp
+public interface ILogger
+{
+    void Log(string message);
+}
+
+public class ConsoleLogger : ILogger
+{
+    public void Log(string message)
+    {
+        Console.WriteLine(message);
+    }
+}
+
+public class MyClass
+{
+    private readonly ILogger _logger;
+
+    public MyClass(ILogger logger)
+    {
+        _logger = logger;
+    }
+
+    public void DoSomething()
+    {
+        _logger.Log("Doing something...");
+    }
+}
+
+public class Program
+{
+    public static void Main()
+    {
+        var logger = new ConsoleLogger();
+        var myClass = new MyClass(logger);
+        myClass.DoSomething();
+    }
+}
+```
+
+In this example, `MyClass` depends on `ILogger`, but it does not create an instance of `ILogger` itself. Instead, an instance of `ConsoleLogger` is created externally and passed to `MyClass` through its constructor. This allows `MyClass` to be easily tested with different implementations of `ILogger` or mocked implementations for testing purposes.
