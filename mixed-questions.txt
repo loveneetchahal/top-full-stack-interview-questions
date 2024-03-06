@@ -1,0 +1,235 @@
+💥🌟 Introduction Session 🌟 💥 
+💥 💥 HR Session 💥💥 
+
+Introduce the Company Interviewer and self. introduction? 
+1. Tell us about Yourself? 
+2. Why would you left your Part. time Job?
+3. where you will be in 5 years? What are your goals?
+4. Why would you left your Current Job
+5. Why This role attract you?
+6. How do you handle stress?
+7. Can you work under pressure?
+8. What is your Current & Expected salary?
+9. How do you manage your work while doing Onsite & Part. time together? 
+10. Give 3 your worst happenings & 3 your Best One ? 
+11. What are your Weaknesses & Strengths? 
+12. Have you ever faced office politics? 
+13. What is the most difficult task you ever worked on and how do you complete it before the deadline? 
+14. How many Tech technologies you ever experienced in your work field
+15. In which Technology you feel Comfortable & Confident 
+16. Rate yourself in .NET Core Technology
+
+💥🌟 Technical Questions: .  🌟💥 
+💥 💥 Interviewe Round 💥💥 
+ 
+1. What do you know about the term Web services? Why is important aspect of programming now a days?
+2. What is Feature branch in GITHUB? How u use this? 
+3. What is Dependency Injection? Explain Singleton Pattern?
+4. What is Inheritance? 
+5. What is DB First Approach? How it is different from Code First Approach?
+6. How is Interfaces & What is Abstract class? 
+7. What are User. Defined Datatypes in SQL? Explain any one
+8. Difference between Views & Tables?
+9. What is Stored Procedure? Why it is necessary in most of the? What are the Scenarios?
+10. Difference between Views & Stored Proc? 
+11. Explain OOP Four Pillars with real time example? 
+12. What do you understand about polymorphism in C++? 
+13. What good is happen if I do polymorphism in my code? Explain it also?
+14. Difference between Asynchronous Programming & Synchronous Programming? 
+15. What is jQuery and JavaScript? Is there any difference between both?
+16. What is Bootstrap? 
+17. How to do Multiple Inheritance? 
+18. Can we say this that Polymorphism is also enhance Code reusability if yes then Explain how? 
+19. Is it possible to create the Variable of Static member?
+20. What are the Technologies you have Practice in your current Job Work Experience? 
+21. In Which Programming Architecture you worked? What are Common Architectures? 
+22. How do we call the Web API through jQuery? What do we do? 
+23. What is the HTTP Request in Web API? What are the steps you take to call the Web Api method through http request? 
+24. Explain Swagger and how do you perform your API testing using Swagger? 
+25. Differnce Between Swagger & Postman? 
+26. What is Middleware request pipeline? 
+27. Where do you Initiate your Middleware Component? 
+28. What are the main Steps performed by Middleware while interception with Incoming & Outgoing Requests? 
+29. How do you Inject the Service into Controller? 
+30. What is DI Service and How do we implement it? 
+31. Difference between EF Core and Dapper? 
+32. What is IOC? 
+33. What is Design pattern and which one you Used in your project? 
+34. Which one is better Singleton or IOC? 
+35. What is a Repository Pattern? 
+36. What is the Scope of the Object? 
+37. what are Private and Protected Access Modifier? 
+38. What are Generics in C#? 
+39. How do we do Indexing in Database? 
+40. In many. to. many relationship how many tables are designed? 
+41. What do you know about SRS
+42. What are the main Features of SRS 
+43. How many Design Pattern are used normally in Enterprise Software's
+44. Difference between Object & Class with real world example
+45. What do we do for the class that is not being inherited by any class
+46. What are Access Modifiers & How many are
+47. What is Static Class
+48. How do you Override the class which not also affecting the structure of your design
+49. What is Singleton Pattern & Explain MVC
+50. Explain from scratch how do you build Complete project in .Net Framework from Start to End Code point of view
+51. Difference Between Read. only & Constant and How the Compiler will check the property either on Runtime or Compile time
+52. What is Inversion Control & Dependency Injection
+53. In which File the Route of is written
+54. What is the Scope of Object
+55. What are Joins & Explain Inner Join 
+56. What is Indexing
+57. Primary vs Unique Key 
+58. What is Routing Process
+59. What are Component & Directives in Angular 
+60. How do we use the one class variable into another class 
+61. What are Filters in MVC?
+62. What is the Differnece between Views and Partial Views?
+63. What are Shared Preferences?
+64. Explain HTTP Context and Sessions?
+65. How to make the static class object?
+66. when Interfaces are Important?
+67. Where are Derived classes are used?
+68. Can we Implement the Abstract Class?
+69. Purpose of Sealed Class?
+70. what Delegates in encapsulation?
+71. Explain Design Pattern?
+72. What is API (Get/Post) methods?
+73. How do we perform Single. Sign On?
+74. Class Coupling/Dependency Injection?
+75. Middleware Working Why used?
+76. Explain OOP four pillers in one line?
+77. What is Method Overloading?
+78. What is Method Overriding?
+79. Explain the difference of both?
+80. What you understand Interfaces and abstraction
+81. why class is important?
+82. What are static class and static methods?
+83. Explain Client. side scripting vs Server side Scripting?
+84. Difference of XML/HTML in one line?
+85. what is database?
+86. SP/Function?
+89. What are Aggregate functions and their mandatory classes?
+90. Why Joins are used in databases?
+91. Types of Joins?
+92. Difference between Synchronization vs Asynchronization?
+93. Exceptional Handling?
+94. Threading?
+95. Left join vs Right join?
+96. REST vs SOAP API ? 
+97. Get vs Post?
+99. how do you perform memory managment if i give you two variables and you need to add these two variables like a+b=?
+100. What is Garbage collection how do you perform if required? 
+101. Access Modifiers.  private:protected:public:difference?
+102. Components in Angular ?
+103. Explain MVC?
+104. Difference between MVC/MVVM?
+105. Pillers of OOP?a
+106. Object/Class difference?
+107. Which method make the class not accessible or inherited?Keyword?
+108. Along with public keyword what is the way to make the class or method not inherited?
+109. Sealed class?
+110. Final keyword means?
+111. Sealed/final?
+112. Is their any class whose instance is not created?
+113. Abstract class/Interfaces?
+114. How many Interfaces a class can implemented?
+115. Is multiple inheritance is possible in c#?
+116. Encapsulations vs Abstraction means?
+117. Mention some Access Modifiers?
+118. Is the public/private/protected access modifiers comes under the umbrella of Abstraction?
+119. What are the Service lifetime in Asp.net core?
+120. Swagger?In which Project u use swagger?how?
+121. Mention any project in which you implement OOP or SOLID principle?
+122. How you implement the middleware in startup.cs file and how you implement swagger ?and call? explain complete process in depth?
+123. Looging/Logout in respective of Authentication/Authorization middelware ?
+124. process of how you implement loging,authentication/authorization in your project ?
+125. what is OAuth?Token based authentication?
+126. How you match your backend password with users entered credential waht is the inner process?
+127. Do you have any idea about Identity services?
+128. Difference between Managed/unmanaged code?
+129. Is the c#code is manged or unmanged?
+130. what is polymorphism?
+131. What is the difference between Method overloading/method overiding?
+132. Late/Early binding process ?
+133. what is Out/ref ?
+134. Difference between static and constant?
+135. What is value type and reference type ?
+136. Boxing/Unboxing?
+137. How you make the value typr to reference type?
+138. What is partial class?
+139. Difference between Single vs mutiple delegates?
+140. what are Explicit and implicit interface?
+141. Is the Abstraction and data binding is same?
+142. What is the differnece between Debug build /release build?
+143. What approch you follow on your project?Db first vs code first approch?
+144. What are extension function?
+145. LING Query ?
+146. IEnumerable vs IQuerable difference?
+147. What happen when we write FirstorDefault and SingleorDefault?
+148. In which way the Exception of (object reference not set to an instance)?
+149. What is IAction Result?
+150. What is class?
+151. What is Structures?
+152. Difference Between Class & Structure
+153. What is the difference Between Value Type and Refernce type?
+154. what is the data type of class?
+155. Abstract class vs interfaces?
+156. is it possible that the interfaces inherit the abstract class or not?
+157. what is polymosrphism?
+158. difference between method overloading and method overriding?
+159. what is runtime polymorphism?
+160. Which design pattern followed?
+161. What is WebApi?
+162. What is .Net core?
+163. Difference between .Net and .Net Core?
+164. what is Dependency Injection?
+165. Solid Principles?In which project you follow solid principle?
+166. Lifetime of object Depencency injection?Singleton or something else?
+167. What is Controllers?Main roles or how we make them optimised?
+168. what is the keyword named 'attributes' means?
+169. Obsoulete in attributes means?
+170. how you make the .net core web Api?
+171. what is multi. threading?
+171. Synchronous Vs Async/Await ?
+172. what is sealed means?
+173. how you make the check on the value whether it is null or not in .net 
+core?
+
+🌟💥 SQL Database🌟💥  
+
+1. Is their any way to insert the data of 1000+ record in dp in one go?
+2. UDDI?
+3. What are Joins?/Left join vs Right join?
+4. Indexing ?how to perform?
+5. Unique/Primary Key?
+6. what are joins?
+7. Difference between Innerjoin vs self join or left join?
+8. what is outer join?
+9. Do you practice any way to do self join?
+10. Is there an way to use where clause along with join?means how to do multiple joins with where clause?
+11. what are conditional joins?
+12. Difference between sql functions/Stored procedure?
+13. If use simple query to fetch record don't you think that the sql injection is break into database or is it vulnerable?
+14. What is primary key?
+15. What is Unique key?
+16. Difference of Both primary/uniques keys?
+17. which design approach you follow ?Code first or schema first?
+18. Relationships in Sql ?One to many ?Many to many?
+19. What are Aggregate functions?
+20. What are Logs /why logs important ?where log is saved?
+21. what is stored procedure?
+22. What are functions in sql?
+
+💥🌟Angular🌟💥   
+
+1.  What are components?
+2.  what are services ?give any one?
+3.  how you create rounting in angular between components?
+4.  What is route guard in Angular?
+
+💥🌟 Last Session 🌟💥  
+
+.  Why would you Join Us? 
+.  We are about to Contact you and send the interview Coding test are you ready for this?
+.  Why would you leave your current job? 
+.  Any Question from your side? 
