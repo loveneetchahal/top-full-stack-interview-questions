@@ -78,72 +78,15 @@ Metadata: This can be used to add more data to an Angular class.
 **Answer:** 
 Directives add behaviour to an existing DOM element or an existing component instance.
 
-import { Directive, ElementRef, Input } from '@angular/core';
-
-@Directive({ selector: '[myHighlight]' })
-export class HighlightDirective {
-    constructor(el: ElementRef) {
-       el.nativeElement.style.backgroundColor = 'yellow';
-    }
-}
-Now this directive extends HTML element behavior with a yellow background as below
-
-<p myHighlight>Highlight me!</p>
-
-
 **What are components?**
 
 **Answer:** 
-Components are the most basic UI building block of an Angular app, which form a tree of Angular components. These components are a subset of directives. Unlike directives, components always have a template, and only one component can be instantiated per element in a template. Let's see a simple example of Angular component
-import { Component } from '@angular/core';
-
-@Component ({
-   selector: 'my-app',
-   template: ` <div>
-      <h1>{{title}}</h1>
-      <div>Learn Angular6 with examples</div>
-   </div> `,
-})
-
-export class AppComponent {
-   title: string = 'Welcome to Angular world';
-}
+Components are the most basic UI building block of an Angular app, which form a tree of Angular components. These components are a subset of directives. Unlike directives, components always have a template, and only one component can be instantiated per element in a template. 
 
 **What is a template?**
 
 **Answer:**
  A template is a HTML view where you can display data by binding controls to properties of an Angular component. You can store your component's template in one of two places. You can define it inline using the template property, or you can define the template in a separate HTML file and link to it in the component metadata using the @Component decorator's templateUrl property.
-
-Using inline template with template syntax,
-
-import { Component } from '@angular/core';
-
-@Component ({
-   selector: 'my-app',
-   template: '
-      <div>
-         <h1>{{title}}</h1>
-         <div>Learn Angular</div>
-      </div>
-   '
-})
-
-export class AppComponent {
-   title: string = 'Hello World';
-}
-Using separate template file such as app.component.html
-
-`import { Component } from '@angular/core';
-
-@Component ({
-   selector: 'my-app',
-   templateUrl: 'app/app.component.html'
-})
-
-export class AppComponent {
-   title: string = 'Hello World';
-}`
-
 
 **What is a module?**
 
