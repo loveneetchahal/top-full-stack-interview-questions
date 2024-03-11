@@ -33,34 +33,35 @@ Angular is a completely revived component-based framework in which an applicatio
 
 Here are some of the major differences in tabular format:- 
 
-AngularJS	                                                    Angular
-It is based on MVC architecture	                            This is based on Service/Controller
-It uses JavaScript to build the application	Uses            TypeScript to build the application
-Based on controllers concept	                            This is a component based UI approach
-No support for mobile platforms	                            Fully supports mobile platforms
-Difficult to build SEO friendly application	                Ease to build SEO friendly applications
+***AngularJS***	                                                   
+It is based on MVC architecture	                            
+It uses JavaScript to build the application	Uses           
+Based on controllers concept	                            
+No support for mobile platforms	                            
+Difficult to build SEO friendly application	                
 
+***Angular***
+This is based on Service/Controller
+TypeScript to build the application
+This is a component based UI approach
+Fully supports mobile platforms
+Ease to build SEO friendly applications
 
 **What is TypeScript?**
 
 **Answer:**
 TypeScript is a strongly typed superset of JavaScript created by Microsoft that adds optional types, classes, async/await and many other features, and compiles to plain JavaScript. Angular is written entirely in TypeScript as a primary language. You can install TypeScript globally as
-npm install -g typescript
-Let's see a simple example of TypeScript usage:-
-function greeter(person: string) {
-    return "Hello, " + person;
-}
 
-let user = "ramsant";
+```npm install -g typescript```
+Let's see a simple example of TypeScript usage:-
+```function greeter(person: string) {
+    return "Hello, " + person;
+}```
+
+```let user = "ramsant";
 
 document.body.innerHTML = greeter(user);
-The greeter method allows only string type as argument.
-
-**Write a pictorial diagram of Angular architecture?**
-
-**Answer:** 
-The main building blocks of an Angular application are shown in the diagram below:- ScreenShot
-
+```
 
 **What are the key components of Angular?**
 
