@@ -7,8 +7,7 @@ Azure is a cloud computing platform and service provided by Microsoft. It offers
 
 **Can you explain the difference between Azure Web Apps, Azure Functions, and Azure Logic Apps?**
 
-**Answer**
-
+**Answer** 
 *Azure Web Apps* is a platform-as-a-service (PaaS) offering for hosting web applications, REST APIs, and mobile app backends. They provide a fully managed environment with built-in support for various programming languages and frameworks.
 
 *Azure Functions* is a serverless computing service that allows developers to run small code (functions) in response to events or triggers without managing the underlying infrastructure.
@@ -18,7 +17,6 @@ Azure is a cloud computing platform and service provided by Microsoft. It offers
 **What are the key components of the Azure Resource Manager (ARM)?**
 
 **Answer** 
-
 *Azure Resource Manager (ARM)* is an Azure resources deployment and management service. The key components of ARM include:
 
 *Resource groups:* A logical container for resources that are deployed within an Azure subscription.
