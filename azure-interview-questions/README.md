@@ -6,6 +6,7 @@ Here are some basic interview questions and answers for a azure developer:
 Azure is a cloud computing platform and service provided by Microsoft. It offers a wide range of services, tools, and frameworks for developers to build, deploy, and manage applications. Azure is important for developers because it enables them to create scalable, reliable, and cost-effective applications without worrying about the underlying infrastructure.
 
 **Can you explain the difference between Azure Web Apps, Azure Functions, and Azure Logic Apps?**
+
 **Answer**
 
 *Azure Web Apps* is a platform-as-a-service (PaaS) offering for hosting web applications, REST APIs, and mobile app backends. They provide a fully managed environment with built-in support for various programming languages and frameworks.
@@ -15,6 +16,7 @@ Azure is a cloud computing platform and service provided by Microsoft. It offers
 *Azure Logic Apps* is an Azure service for creating and running workflows that integrate with various services and data sources. They provide a visual designer to create workflows using pre-built connectors and actions.
 
 **What are the key components of the Azure Resource Manager (ARM)?**
+
 **Answer** 
 
 *Azure Resource Manager (ARM)* is an Azure resources deployment and management service. The key components of ARM include:
