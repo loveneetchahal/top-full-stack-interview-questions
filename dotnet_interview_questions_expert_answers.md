@@ -1,11 +1,3 @@
-# .NET / .NET Core Interview Questions — Expert Answers
-
-> **Source:** 97 interview questions from the uploaded `.md` file.
->
-> **Approach:** These answers are written as interview-ready explanations. They focus on the underlying runtime, framework behavior, trade-offs, failure modes, and practical examples rather than memorized definitions.
-
----
-
 # RUNTIME AND PLATFORM FUNDAMENTALS
 
 ## 1. What is .NET, and how do the runtime, the base class library, and the SDK relate to each other?
